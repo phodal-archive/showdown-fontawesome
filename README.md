@@ -6,7 +6,7 @@
     var result = converter.makeHtml(
             '<icon-github> [https://github.com/phodal](https://github.com/phodal)<br/>' +
             '<icon-weibo> [http://weibo.com/phodal](http://weibo.com/phodal)<br/>' +
-            '<icon-windows><icon-yahoo><tencent-weibo>'
+            '<icon-windows><icon-yahoo><icon-tencent-weibo>'
     );
     document.getElementById('show').innerHTML = result;
     

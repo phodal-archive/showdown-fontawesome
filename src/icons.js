@@ -7,9 +7,9 @@
     var icons = function(converter) {
         return [
             { type: 'output', filter: function(source){
-                return source.replace(/<icon-(\w+)>/gi, function(match, isLevel) {
-                    var type = match.match(/<icon-(\w+)>/i)[1];
-
+                return source.replace(/<icon-([a-zA-Z-]+)>/gi, function(match, isLevel) {
+                    var type = match.match(/<icon-([a-zA-Z-]+)>/i)[1];
+                    console.log(type);
                     if (isLevel) {
                         return '<i class="fa fa-' + type + '"></i>';
                     }
