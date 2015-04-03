@@ -1,7 +1,18 @@
-#Showdown Font Awesome Plugin
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Showdown Star Plugin</title>
+    <link rel="stylesheet" href="styles/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <script src="lib/Showdown.js" ></script>
+    <script src="src/icons.js" ></script>
+</head>
+<body>
 
-##Usage
-
+<div id="show">
+</div>
+<script>
     var converter = new Showdown.converter({ extensions: ['icons'] });
     var result = converter.makeHtml(
             '<icon-github> [https://github.com/phodal](https://github.com/phodal)<br/>' +
@@ -9,7 +20,6 @@
             '<icon-windows><icon-yahoo><tencent-weibo>'
     );
     document.getElementById('show').innerHTML = result;
-    
-##ScreenShot    
-
-![ScreenShot](./screenshot.png)
+</script>
+</body>
+</html>
