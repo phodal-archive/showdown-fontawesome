@@ -1,0 +1,27 @@
+{
+  "name": "showdown-fontawesome",
+  "version": "0.0.1",
+  "homepage": "https://github.com/phodal/showdown-fontawesome",
+  "authors": [
+    "Fengda HUANG <h@phodal.com>"
+  ],
+  "description": "Showdown Font Awesome Plugin",
+  "main": "src/icons.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "showdown",
+    "markdown",
+    "font-awesome"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
