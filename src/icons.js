@@ -19,7 +19,7 @@
     };
 
     // Client-side export
-    if (typeof window !== 'undefined' && window.Showdown && window.Showdown.extensions) { window.Showdown.extensions.icons = icons; }
+    if (typeof window !== 'undefined' && window.showdown && window.showdown.extensions) { window.showdown.extensions.icons = icons; }
     // Server-side export
     if (typeof module !== 'undefined') module.exports = icons;
 }());
