@@ -7,6 +7,9 @@
   ],
   "description": "Showdown Font Awesome Plugin",
   "main": "src/icons.js",
+  "dependencies": {
+    "showdown": "1.0.x"
+  },
   "moduleType": [
     "amd"
   ],
