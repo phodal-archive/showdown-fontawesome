@@ -2,7 +2,7 @@
 
 ##Usage
 
-    var converter = new Showdown.converter({ extensions: ['icons'] });
+    var converter = new showdown.Converter({ extensions: ['icons'] });
     var result = converter.makeHtml(
             '<icon-github> [https://github.com/phodal](https://github.com/phodal)<br/>' +
             '<icon-weibo> [http://weibo.com/phodal](http://weibo.com/phodal)<br/>' +
